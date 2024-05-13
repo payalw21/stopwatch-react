@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgb(170, 170, 170) 0px 0px 5px inset;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* width: 850px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 280px;
+  display: flex;
+  height: max-content;
+  padding: 40px;
+  gap: 35px;
+}
+
+.timer {
+  font-size: 130px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  all: inherit;
+  background: black;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 5px;
+  width: 88px;
+  height: 34px;
+  margin: 20px;
+}
+
+.info {
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  /* margin-top: 31px; */
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start; */
+  width: min-content;
+  text-align: left;
+  input {
+    width: 298px;
+    height: 30px;
+    /* border: none; */
+    border: 2px solid #efe9e9;
+  }
+
+  textarea {
+    resize: vertical;
+    /* border: none; */
+    width: 298px;
+    border: 2px solid #efe9e9;
+  }
+
+  h3 {
+    width: 298px;
+    height: 30px;
+  }
+}
+
+#reset.btn.disabled {
+  /* your styling here */
+  opacity: 0.1; /* example: reduce opacity to indicate disabled state */
+  cursor: not-allowed; /* example: change cursor to indicate disabled state */
+  background-color: brown;
+}
+
+/* .main-container {
+  margin: 20px;
+} */
+
+.container {
+  margin: 30px;
+}
+
+.add-btn {
+  /* all: inherit; */
+  background: black;
+  color: whitesmoke;
+  cursor: pointer;
+  /* padding: 3px; */
+  border-radius: 5px;
+  width: 88px;
+  height: 34px;
+  margin: 20px;
+}
+
+.del-btn {
+}
